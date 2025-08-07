@@ -148,10 +148,11 @@ section {
 }
 .product-container .product-card {
   border: 1px solid blueviolet;
-  background-color: #ddd;
+
   width: 32%;
   padding: 10px;
   border-radius: 5px;
+  background-color: #e6e9eb;
 }
 .product-card .product-img {
 }
@@ -184,4 +185,27 @@ section {
   font-weight: 500;
 }
 .product-btn {
+}
+
+/* gallery styles */
+.gallery {
+}
+.gallery .gallery-title {
+  text-align: center;
+}
+.gallery .gallery-container {
+  background-color: #e6e9eb;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 35px;
+}
+.gallery-container .gallery-img {
+  border: 2px solid blue;
+  border-radius: 5px;
+  flex-basis: 250px;
+}
+.gallery-img img {
+  width: 100%;
 }
