@@ -3,7 +3,8 @@
   .navbar,
   .banner,
   .navbar .nav-right ul,
-  .product .product-container {
+  .product .product-container,
+  .footer .footer-container {
     flex-direction: column;
   }
 

@@ -209,3 +209,26 @@ section {
 .gallery-img img {
   width: 100%;
 }
+/* footer starts */
+.footer {
+  margin-top: 50px;
+}
+.footer .footer-container {
+  background-color: #9376e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 70px;
+}
+.footer-container .footer-logo {
+  width: 75px;
+}
+.footer-logo img {
+  width: 100%;
+}
+.footer-container .footer-content {
+}
+.footer-content p {
+  font-size: 14px;
+}
