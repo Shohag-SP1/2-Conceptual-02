@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* font-family: "Poppins", sans-serif; */
+/* color: #e893cf;
+color: #9376e0;
+color: #e6e9eb; */
+/* shared styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-size: 1rem; */
+}
+.container {
+  border: 2px solid red;
+  width: 80%;
+  margin: 0 auto;
+}
+.special {
+  color: #e893cf;
+}
+section {
+  margin-top: 80px;
+}
+/* header styles */
+.header {
+  background-color: #9376e0;
+  padding: 10px 0;
+}
+/* nav styles */
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .nav-left {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.nav-left .nav-title {
+  font-size: 35px;
+}
+.nav-left img {
+  width: 70px;
+}
+.navbar .nav-right {
+  width: 50%;
+}
+.nav-right ul {
+  display: flex;
+}
+.nav-right ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+.nav-right .login-btn {
+  background-color: #e893cf;
+  padding: 5px 16px;
+  border-radius: 3px;
+  color: #fff;
+  overflow: hidden;
+}
+.nav-right ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+/* main starts */
+/* banner-section starts */
+.banner {
+  background-color: #e6e9eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+}
+.banner .banner-content {
+  width: 48%;
+  text-align: center;
+}
+.banner-content .banner-title {
+  color: #9376e0;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+.banner-content .banner-subtitle {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-family: "Dancing Script", cursive;
+}
+.banner-content .social-icon {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.social-icon .fa-brands {
+  font-size: 25px;
+}
+.fa-facebook {
+  color: blue;
+}
+.fa-youtube {
+  color: red;
+}
+.fa-instagram {
+}
+.fa-twitter {
+  color: purple;
+}
+.banner-content .banner-btn {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.banner-btn .btn {
+  border: 1px solid #e6e9;
+  background-color: transparent;
+  font-size: 16px;
+  padding: 7px 15px;
+  border-radius: 4px;
+  color: #333;
+}
+.banner .banner-img {
+  width: 48%;
+}
+.banner-img img {
+  width: 100%;
+}
+/* product styles */
+.product {
+}
+.product .product-title {
+  text-align: center;
+}
+.product .product-container {
+  margin-top: 25px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.product-container .product-card {
+  border: 1px solid blueviolet;
+  background-color: #ddd;
+  width: 32%;
+  padding: 10px;
+  border-radius: 5px;
+}
+.product-card .product-img {
+}
+.product-img img {
+  width: 100%;
+}
+.product-card .product-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-content .product-title {
+}
+.product-content .content-icon {
+  display: flex;
+  gap: 5px;
+}
+.content-icon span {
+  font-size: 20px;
+  color: #e893cf;
+}
+.product-card .product-description {
+  margin-top: 5px;
+  color: #333;
+  font-size: 14px;
+}
+.product-card .product-price {
+  font-size: 16px;
+  margin: 6px 0;
+  font-weight: 500;
+}
+.product-btn {
+}
